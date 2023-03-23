@@ -1,3 +1,5 @@
+
+
 import React from 'react'
 import axios from 'axios'
 import styles from '@/styles/Feed.module.css'
@@ -5,6 +7,7 @@ import Navbar from '@/components/Navbar'
 import { useRouter } from 'next/router'
 import  Category  from '../../components/Category'
 import {SearchBar} from '../../components/SearchBar'
+
 
 const Feed = ({pageNumber, articles}) => {
     const router=useRouter();

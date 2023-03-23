@@ -1,5 +1,11 @@
 {
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js"
+  "/_document": "pages/_document.js",
+  "/business/[mug]": "pages/business/[mug].js",
+  "/feed/[slug]": "pages/feed/[slug].js",
+  "/entertainment/[shug]": "pages/entertainment/[shug].js",
+  "/sports/[duck]": "pages/sports/[duck].js",
+  "/technology/[tech]": "pages/technology/[tech].js",
+  "/": "pages/index.js"
 }
